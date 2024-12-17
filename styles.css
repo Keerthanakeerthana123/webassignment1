@@ -1,0 +1,158 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Resume Container */
+.resume-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Column */
+.left-column {
+    width: 30%;
+    background-color: #4CAF50;
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.left-column .profile-image img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.left-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.left-column p {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.left-column .social-media a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.left-column .social-media a:hover {
+    text-decoration: underline;
+}
+
+/* Right Column */
+.right-column {
+    width: 70%;
+    padding: 20px;
+}
+
+/* Name and Title */
+.name-title h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+}
+
+.name-title h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #777;
+}
+
+/* Summary Section */
+.summary {
+    margin-top: 20px;
+}
+
+.summary h3 {
+    font-size: 22px;
+    color: #333;
+}
+
+.summary p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Skills Section */
+.skills h3 {
+    font-size: 22px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background-color: #f8f8f8;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Experience Section */
+.experience h3 {
+    font-size: 22px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.job h4 {
+    font-size: 18px;
+    color: #333;
+}
+
+.company {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.job ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.job ul li {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Education Section */
+.education h3 {
+    font-size: 22px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.education p {
+    font-size: 16px;
+    color: #555;
+}

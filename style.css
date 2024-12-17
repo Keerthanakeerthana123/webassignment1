@@ -1,0 +1,92 @@
+body, h1, h2, p, ul, li, table, th, td {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Header */
+  .header {
+    background: #0044ff;
+    color: white;
+    padding: 1rem 0;
+  }
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  .nav-links li {
+    margin: 0 15px;
+  }
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sections */
+  .section {
+    padding: 2rem 1rem;
+    background: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+  }
+  .section:nth-child(even) {
+    background: #ffffff;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+h2 {
+  margin-bottom: 1rem;
+  color: #af6b4c;
+}
+p {
+  margin-bottom: 1rem;
+}
+
+/* Resume List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Biodata Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 1rem 0;
+}
